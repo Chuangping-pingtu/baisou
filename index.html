@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>点击图片朗读</title>
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>点击图片朗读</h2>
+    <div class="image-container">
+        <!-- 替换下面的图片URL和文字 -->
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-01.jpg?raw=true" alt="图片1" onclick="speak('虎 老虎的虎')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-02.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-03.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-04.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-05.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-06.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-07.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-08.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-09.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-10.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-11.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-12.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-13.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-14.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-15.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-16.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-17.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-18.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-19.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-20.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-21.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-22.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-23.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-24.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-25.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-26.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-27.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-28.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-29.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-30.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-31.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-32.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-33.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-34.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-35.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-36.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-37.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-38.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-39.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-40.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-41.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-42.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-43.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-44.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-45.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-46.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-47.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+        <img src="https://github.com/Chuangping-pingtu/baisou/blob/main/%E7%99%BE%E5%85%BD%E7%AF%87-48.jpg?raw=true" alt="图片2" onclick="speak('狮 狮子的狮')">
+              <!-- 重复添加其他图片 -->
+    </div>
+
+    <script>
+        function speak(text) {
+            let msg = new SpeechSynthesisUtterance(text);
+            msg.lang = 'zh-CN';
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+</body>
+</html>
